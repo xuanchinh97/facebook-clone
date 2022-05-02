@@ -4,7 +4,7 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 })
 
 // gender select 
-if (window.laction.pathname === '/')  {
+if (window.location.pathname === '/')  {
     const radioBtn1 = document.querySelector("#flexRadioDefault1")
     const radioBtn2 = document.querySelector("#flexRadioDefault2")
     const radioBtn3 = document.querySelector("#flexRadioDefault3")
